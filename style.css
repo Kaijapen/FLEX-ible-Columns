@@ -1,0 +1,36 @@
+
+/* Default for body */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* parent to col class */
+.row{
+    display: flex;
+    text-align: center;
+}
+
+
+.box {
+    background-color: rgb(6, 140, 140);
+    color: aliceblue;
+    padding-top: 16px;
+    height: 40px;
+    margin: 10px;
+}
+
+
+/* child to row class */
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
